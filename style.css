@@ -1,7 +1,19 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: gray;
+}
+
 #titulo {
     color: rgb(216, 149, 66);
 }
 
 .saludo {
     color: brown;
+}
+
+#precios {
+    background-color: rgba(30, 30, 30, 0.352);
 }
