@@ -7,65 +7,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <!--Lo de arriba es la fuente que tome de google fonts-->
     <link rel="stylesheet" href="style.css">
-    <style>
-        table, th, td {
-            border: 1px solid black;
-        }
-    </style>
 </head>
 <body>
     <header>
         <h1 id="titulo">Autos exlusivos</h1><br>
-        <img width="200" src="imagenes/titulologo.jpg"/>
+        <img id="logo" width="200" src="imagenes/titulologo.jpg"/>
         <h2>Bienvenido</h2>
         <h3 class="saludo">Gracias por visitar nuestro sitio. En Exotic Cars ofrecemos vehículos seleccionados en perfectas condiciones, trabajando dia a dia para lograr brindar una mejor atención al cliente. Podemos facilitarle la gestion de la venta de su usado mediante nuestra <span style="color: rgb(232, 119, 12)">Red Privada Munafó (RPM)</span>, tomarlo en consignación o simplemente comprarlo a un precio razonable.</h3>
     </header>
     <hr>
     <h2>Flota</h2>
     <section>
-        <article>
-            <h2>BMW 520 (1981) </h2>
-            <img width="300" src="imagenes/bmw.jpg" />
-            <p>El auto esta original de fabrica. Es segunda mano, con caja automática. Herramientas de fabrica. Inscripto en el Club BMW Alemán E12 desde 2008. Radicado en Provincia de Buenos Aires. Listo para transferir.</p>
-            <ul>
-                <li>Motor: En linea 6</li>
-                <li>Cilindrada: 2.0L</li>
-                <li>Válvulas: 12</li>
-                <li>Caja: Automática</li>
-            </ul>
-        </article>
-        <article>
-            <h2>Fiat 1500 (1969)</h2>
-            <img width="300" src="imagenes/fiat.jpg"/>
-            <p>Caja de 5ta. Parabrisas triple laminado. Electro ventilador agregado. Lava limpia parabrisas. Restaurado completo. Llantas de Fiat 125 Potenciado.</p>
-            <ul>
-                <li>Motor: En linea 4</li>
-                <li>Cilindrada: 1.5L</li>
-                <li>Válvulas: 8</li>
-                <li>Caja: Manual</li>
-            </ul>
-        </article>
-        <article>
-            <h2>Mercedes Benz 190SL (1956)</h2>
-            <img width="300" src="imagenes/gaviota.jpg"/>
-            <p>El precio publicado corresponde al valor del vehículo abonando al contado EN DÓLAR BILLETE. Para negociaciones con permuta, financiación y facilidades de pago</p>
-            <ul>
-                <li>Motor: En linea 8</li>
-                <li>Cilindrada: 3.2L</li>
-                <li>Válvulas: 40</li>
-                <li>Caja: Manual</li>
-            </ul>
-        </article>
-        <article>
-            <h2>Chevrolet Chevy SS (1971)</h2>
-            <img width="300" src="imagenes/chevy.jpg"/>
-            <p>El Chevrolet Chevy es un automóvil de turismo construido por General Motors de Argentina para la marca Chevrolet, durante las décadas de 1960 y 1970. El coche es un derivado del modelo estadounidense Chevrolet Nova de tercera generación.</p>
-            <ul>
-                <li>Motor: En linea 6</li>
-                <li>Cilindrada: 2.5L</li>
-                <li>Válvulas: 18</li>
-                <li>Caja: Manual</li>
-            </ul>
+        <article id="autos">
+            <div class="bmw">
+                <h2>BMW 520 (1981) </h2>
+                <img class="fotito" width="300" src="imagenes/bmw.jpg" />
+                <p>El auto esta original de fabrica. Es segunda mano, con caja automática. Herramientas de fabrica. Inscripto en el Club BMW Alemán E12 desde 2008. Radicado en Provincia de Buenos Aires. Listo para transferir.</p>
+                <ul>
+                    <li>Motor: En linea 6</li>
+                    <li>Cilindrada: 2.0L</li>
+                    <li>Válvulas: 12</li>
+                    <li>Caja: Automática</li>
+                </ul>
+            </div>
+            <div class="fiat">
+                <h2>Fiat 1500 (1969)</h2>
+                <img width="300" src="imagenes/fiat.jpg"/>
+                <p>Caja de 5ta. Parabrisas triple laminado. Electro ventilador agregado. Lava limpia parabrisas. Restaurado completo. Llantas de Fiat 125 Potenciado.</p>
+                <ul>
+                    <li>Motor: En linea 4</li>
+                    <li>Cilindrada: 1.5L</li>
+                    <li>Válvulas: 8</li>
+                    <li>Caja: Manual</li>
+                </ul>
+            </div>
+            <div class="mercedes">
+                <h2>Mercedes Benz 190SL (1956)</h2>
+                <img width="300" src="imagenes/gaviota.jpg"/>
+                <p>El precio publicado corresponde al valor del vehículo abonando al contado EN DÓLAR BILLETE. Para negociaciones con permuta, financiación y facilidades de pago</p>
+                <ul>
+                    <li>Motor: En linea 8</li>
+                    <li>Cilindrada: 3.2L</li>
+                    <li>Válvulas: 40</li>
+                    <li>Caja: Manual</li>
+                </ul>
+            </div>
+            <div class="chevy">
+                <h2>Chevrolet Chevy SS (1971)</h2>
+                <img width="300" src="imagenes/chevy.jpg"/>
+                <p>El Chevrolet Chevy es un automóvil de turismo construido por General Motors de Argentina para la marca Chevrolet, durante las décadas de 1960 y 1970. El coche es un derivado del modelo estadounidense Chevrolet Nova de tercera generación.</p>
+                <ul>
+                    <li>Motor: En linea 6</li>
+                    <li>Cilindrada: 2.5L</li>
+                    <li>Válvulas: 18</li>
+                    <li>Caja: Manual</li>
+                </ul>
+            </div>
         </article>
     </section>
     <hr>
@@ -95,7 +92,7 @@
     <footer>
         <a href="https://github.com/Fullimol" target="_blank"> CONTACTO</a>
         <a href="#titulo">Ir arriba</a>
-        <p> <span style="color: rgb(137, 137, 137)">Copyright 2022</span></p>
+        <p> <span style="color: rgb(0, 12, 182)">Copyright 2022</span></p>
     </footer>
     <form>
         <label for="nombre">Nombre </label>
@@ -105,7 +102,7 @@
         <input id="apellido" name="apellido" placeholder="Sanchez">
         <br>
         <label for="comentario">Comentario: <br></label>
-        <textarea id="comentario" cols="50" rows="10"></textarea>
+        <textarea id="comentario" cols="30" rows="5"></textarea>
         <button button="reset">Resetear</button>
     </form>
 </body>
