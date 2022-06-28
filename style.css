@@ -3,6 +3,7 @@
 }
 
 #logo {
+    border: 5px seagreen dashed;
     display: block;
     margin: 0px auto;
 }
@@ -33,13 +34,14 @@ table, th, td {
 }
 
 .bmw, .bmw h2 {
-    background-color:rgba(255, 228, 196, 0.266);
+    background-color: burlywood;
     width: 40%;
     margin: 0 auto;
     
 }
 
 .fiat, .fiat h2 {
+    border: 10px red solid;
     background-color:rgba(255, 228, 196, 0.266);
     width: 40%;
     margin: 0 auto;
@@ -47,15 +49,16 @@ table, th, td {
 }
 
 .mercedes, .mercedes h2 {
-    background-color:rgba(255, 228, 196, 0.266);
+    background-color:beige;
     width: 40%;
     margin: 0 auto;
     
 }
 
 .chevy, .chevy h2 {
-    background-color:rgba(255, 228, 196, 0.266);
+    background-color:bisque;
     width: 40%;
     margin: 0 auto;
     
 }
+
